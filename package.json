@@ -1,0 +1,23 @@
+{
+  "name": "example_project",
+  "version": "1.0.0",
+  "description": "introductory example of a simple backend app in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LdMe/MERN_example_project_backend.git"
+  },
+  "keywords": [
+    "MERN",
+    "Node.js"
+  ],
+  "author": "Danel Lafuente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LdMe/MERN_example_project_backend/issues"
+  },
+  "homepage": "https://github.com/LdMe/MERN_example_project_backend#readme"
+}
