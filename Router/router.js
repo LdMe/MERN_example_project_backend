@@ -6,11 +6,11 @@
 const router=require('express').Router();
 
 //-- Router for Login/Register
-const AuthRouter = require('./AuthRouter');
-router.use(AuthRouter);
+const authRouter = require('./authRouter');
+router.use(authRouter);
 //-- Router for User related routes
-const UserRouter = require('./UserRouter');
-router.use(UserRouter);
+const userRouter = require('./userRouter');
+router.use(userRouter);
 //-- Router for Post related routes
 //const PostRouter = require('./PostRouter');
 //router.use(PostRouter);
@@ -24,7 +24,7 @@ router.use(UserRouter);
 //const OrderRouter = require('./OrderRouter');
 //router.use(OrderRouter);
 //-- Router for readme
-const ReadmeRouter = require('./ReadmeRouter');
-router.use(ReadmeRouter);
+const readmeRouter = require('./readmeRouter');
+router.use(readmeRouter);
 
 module.exports=router;
