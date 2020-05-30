@@ -4,7 +4,8 @@
   "description": "introductory example of a simple backend app in Node.js",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "nodemon app.js",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
