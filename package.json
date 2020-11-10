@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/LdMe/MERN_example_project_backend#readme",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
