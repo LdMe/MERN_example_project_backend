@@ -1,4 +1,4 @@
-# Mern example backend project
+# Node.js example backend project
 
 This project is made for students to have a reference to start from. It is not finished.
 
